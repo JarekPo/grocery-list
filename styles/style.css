@@ -1,0 +1,46 @@
+
+.container{
+	color: #002b59;
+	max-width: 30%;
+	font-family: Segoe Print;
+	background-image: url("../images/bg.jpg");
+	background-size: cover;
+	margin: 0 auto;
+	text-align:center;
+	min-height: 700px;
+	padding: 2rem;
+}
+.list{
+	max-width:80%;
+	margin: 0 auto;
+	list-style-position: inside;
+	text-align:center;
+	font-size: 1.5rem;
+	font-weight: bold;
+	
+}
+
+.list-btn{
+	color: red;
+	font-size: 0.6rem;
+	border: none;
+	background:none;
+}
+
+.add-btn{
+	color: #d0d0d0;
+	font-size:2rem;
+	background: #235723;
+	border: 2px solid #a70505;
+	border-radius: 5%;
+	margin: 20px;
+}
+
+.remove-btn{
+	color: #d0d0d0;
+	background: #a70505;
+	border: 2px solid #235723;
+	border-radius: 5%;
+	margin: 40px;
+}
+

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Grocery list</title>
+		<link rel="stylesheet" href="styles/style.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<h1>Grocery list</h1>
+			</div>
+			<div>
+				<button class="add-btn" onclick="addItem()">Add item</button>
+			</div>
+			<div class="list-container">
+				<button class="remove-btn" onclick="removeFirstItem()">Remove first item</button>
+				<ul class="list" id="showList"> </ul>
+				<button class="remove-btn" onclick="removeLastItem()">Remove last item</button>
+			</div>
+		</div>
+		<script src="scripts/main.js"></script>
+	</body>
+</html>
