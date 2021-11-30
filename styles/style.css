@@ -27,6 +27,10 @@
 	background:none;
 }
 
+.list-btn:hover, .add-btn:hover, .remove-btn:hover{
+	cursor:pointer;
+}
+
 .add-btn{
 	color: #d0d0d0;
 	font-size:2rem;
